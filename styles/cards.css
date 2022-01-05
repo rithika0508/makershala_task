@@ -1,0 +1,119 @@
+body {
+    background: #F3F7FC;
+}
+.card {
+    background: white;
+    margin-bottom: 1rem;
+    border-radius: 30px;
+    box-shadow: 0px 10px 20px lightgray;
+    /* z-index: 1; */
+}
+.card__title {
+    text-align: left;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.card__details {
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    line-height: 1.6;
+}
+.card__image {
+    width: 100%;
+    height: 50%;
+}
+.card__details_text {
+    color: #808080;
+    font-weight: bold;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.Enternow__btn {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Enternow__btn > button {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: #FA8F04;
+    border-radius: 10px;
+    border: none;
+    height: 3rem;
+    width:10rem
+}
+
+.allCards {
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.de{
+    height:33%;
+    /* border-bottom: solid black 1px; */
+    margin-left: 16px;
+    padding-bottom: 2rem;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center; */
+}
+
+@media only screen and (max-width: 768px) {
+    .allCards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #star1 {
+        left: 5rem;
+        bottom: 1.5rem;
+    }
+    #pic1 {
+        left:7rem;
+    }
+    #pic2 {
+        left: 1.5rem;
+        top:3rem;
+    }
+    #star2 {
+        left: 10rem;
+        top: 5rem;
+    }
+    .Enternow__btn > button {
+        height: 2rem;
+        width:8rem
+    }   
+    .de{
+        margin-bottom: 10px;
+    }
+    .Enternow__btn {
+        height: 14%;
+    }
+    .head__nav{
+        top: 1.5rem;
+    }
+    .signin{
+        width:10%;
+    }
+    .base__instructions__text{
+        font-size: 15px;
+        padding:0px !important;
+        margin-right: 1rem;
+    }
+    .makershala__logo {
+        width: 60% !important;
+    }
+}

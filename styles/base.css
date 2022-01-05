@@ -1,0 +1,58 @@
+.base {
+    background-image: url("../pictures/background.jpeg");
+    padding-top: 7rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.makershala__logo {
+    width: 40%;
+}
+.details {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width:70%;
+    margin: auto;
+}
+.base__details {    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* line-height: 1.6; */
+}
+.base__text {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+}
+#base__instructions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 5rem;
+}
+.base__instructions__text {
+    color: white;
+    padding: 10px;
+    /* padding-bottom: 10rem; */
+}
+.logo {
+    margin: 5px;
+}
+.base__base {
+    color: white;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+.base__information {
+    margin: 2rem 0;
+}
+.base__head {
+    font-weight: 900 !important;
+}
+.base__info {
+    margin: 7px 0;
+}
