@@ -23,6 +23,7 @@ body {
 .card__image {
     width: 100%;
     height: 50%;
+    transition: transform .5s ease;
 }
 .card__details_text {
     color: #808080;
@@ -115,5 +116,43 @@ body {
     }
     .makershala__logo {
         width: 60% !important;
+    }
+}
+@media only screen and (max-width:320px ){
+    #star1 {
+        display: none;
+    }
+    #pic1 {
+        display: none;
+    }
+    #pic2 {
+        display: none;
+    }
+    #star2 {
+        display: none;
+    }
+    #right_trophy {
+        display: none;
+    }
+    #right__star1 {
+        display: none;
+    }
+    #right__star2 {
+        display: none;
+    }
+    .allCards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #right__circle {
+        display: none;
+    }
+    .nav__element{
+        font-size: 9px;
+    }
+    .signin {
+        font-size: 20%;
+    }
+    .head__nav {
+        top:0.5rem;
     }
 }
